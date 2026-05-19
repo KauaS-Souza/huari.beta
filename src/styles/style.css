@@ -93,5 +93,31 @@ head {
     padding-top: 34px;
 }
 
+.main-1-btns {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 32px;
+    gap: 32px;
+}
+
+.main-1-btns img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn1-main-1 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--neutra-withe);
+}
+
+.btn1-main-1 a {
+
+    color: var(--primaria-laranja);
+}
+
+
+
 
 
