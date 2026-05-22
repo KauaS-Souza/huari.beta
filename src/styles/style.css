@@ -89,6 +89,7 @@ head {
 .corpo-main1 p {
     font-size: 24px;
     font-size: 400;
+    width: 1200px;
     color: var(--neutra-withe);
     padding-top: 34px;
 }
@@ -113,9 +114,25 @@ head {
 }
 
 .btn1-main-1 a {
-
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: var(--primaria-laranja);
 }
+
+.btn2-main-1 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--primaria-bordor);
+}
+
+.btn2-main-1 a {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--neutra-withe);
+}
+
 
 
 
