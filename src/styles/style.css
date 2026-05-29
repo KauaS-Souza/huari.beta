@@ -63,7 +63,13 @@ head {
     background-color: rgb(from var(--primaria-laranja) r g b / 0.3);
     border: 2px solid var(--primaria-laranja);
     border-radius: 20px;
+    color: var(--primaria-laranja);
 }
+
+.not-select {
+    color: var(--neutra-gree);
+}
+
 
 /*  ============================ Main-1  ========================= */
 
@@ -121,10 +127,18 @@ head {
     color: var(--primaria-laranja);
 }
 
+.btn1-main-1 img {
+    margin-left: 20px;
+}
+
 .btn2-main-1 {
     padding: 20px;
     border-radius: 10px;
     background-color: var(--primaria-bordor);
+}
+
+.btn2-main-1 img {
+    margin-right: 20px;
 }
 
 .btn2-main-1 a {
@@ -146,13 +160,13 @@ head {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 24px;
 }
 
 .card-2 {
-    width: 500px;
+    width: 600px;
     height: 300px;
-    padding: 24px;
+    padding: 22px;
     background-color: var(--light-gray);
     border-radius: 40px;
     border: 1px solid var(--neutra-black);
@@ -172,14 +186,46 @@ head {
     border-radius: 10px;
 }
 
-.card-2  p {
+.title-card {
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 400;
     color: var(--primaria-laranja);
 }
 
+.div-h2-img {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.card-p-low {
+    margin-top: 24px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--neutra-gree);
+}
+
+/* =========================== main grafico ======================== */
+
+.grafico {
+    padding: 60px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutra-withe);
+}
+
+.grafico img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+}
+
+/*  ============================= main-3 ====================================== */
 
 
 
