@@ -10,14 +10,14 @@
 
 /* ======================== Header ======================== */
 
-head {
-    padding: 20px 20px;
+header {
+    padding: 20px;
     background-color: var(--neutra-withe);
 }
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -74,7 +74,7 @@ head {
 /*  ============================ Main-1  ========================= */
 
 .main-1 {
-    padding: 60px 100px;
+    padding: 60px 40px;
     background-color: var(--primaria-laranja);
 }
 
@@ -152,7 +152,7 @@ head {
 
 
 .main-2 {
-    padding: 60px 100px;
+    padding: 100px 40px;
     background-color: var(--neutra-withe);
 }
 
@@ -190,7 +190,7 @@ head {
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 400;
-    color: var(--primaria-laranja);
+    color: var(--neutra-gree);
 }
 
 .div-h2-img {
@@ -205,13 +205,13 @@ head {
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 400;
-    color: var(--neutra-gree);
+    color: var(--primaria-laranja);
 }
 
 /* =========================== main grafico ======================== */
 
 .grafico {
-    padding: 60px 100px;
+    padding: 120px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,10 +222,142 @@ head {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1400px;
+    width: 1100px;
 }
 
 /*  ============================= main-3 ====================================== */
 
+.main-3 {
+    padding: 120px 40px;
+    background-color: var(--neutra-withe);
+}
 
+.main-3-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 
+.cards-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-3 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 32px;
+    background-color: var(--light-gray);
+    border: 1px solid var(--neutra-black);
+    border-radius: 20px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+.card-header img {
+    width: 100px;
+    height: 100px;
+}
+
+.card-header p {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color:  var(--neutra-black);
+}
+
+.card-header h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--neutra-gree);
+}
+
+.card-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.party h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    border-radius: 10px;
+    color: var(--primaria-laranja);
+    background-color: rgb(from var(--primaria-laranja) r g b / 0.2);
+}
+
+.location {
+    display: flex;
+    gap: 14px;
+}
+
+.location h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--neutra-gree);
+}
+
+.location img {
+    width: 24px;
+    height: 24px;
+}
+
+.card-metrics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.metric {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.metric-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.metric-data h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--neutra-black);
+}
+
+.metric-data span {
+     font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--neutra-gree);
+}
+
+.metric img {
+    width: 40px;
+    height: 30px;
+}
+
+.cards-dow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
