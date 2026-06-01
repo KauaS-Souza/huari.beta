@@ -369,7 +369,7 @@ header {
 /*  =================== main-4 ======================== */
 
 .main-4 {
-    padding: 100px 40px;
+    padding: 80px 40px;
     background-color: var(--neutra-withe);
 }
 
@@ -415,10 +415,10 @@ header {
 }
 
 .footer {
-    padding: 32px;
+    padding: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
