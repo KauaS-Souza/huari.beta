@@ -414,3 +414,13 @@ header {
     margin-left: 20px;
 }
 
+.footer {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--neutra-black);
+}
