@@ -11,7 +11,7 @@
 /* ======================== Header ======================== */
 
 header {
-    padding: 20px;
+    padding: 20px 60px;
     background-color: var(--neutra-withe);
 }
 
@@ -116,6 +116,7 @@ header {
 
 .btn1-main-1 {
     padding: 20px;
+    border: 1px solid var(--neutra-black);
     border-radius: 10px;
     background-color: var(--neutra-withe);
 }
@@ -133,6 +134,7 @@ header {
 
 .btn2-main-1 {
     padding: 20px;
+    border: 1px solid var(--neutra-black);
     border-radius: 10px;
     background-color: var(--primaria-bordor);
 }
@@ -164,8 +166,9 @@ header {
 }
 
 .card-2 {
-    width: 600px;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     padding: 22px;
     background-color: var(--light-gray);
     border-radius: 40px;
@@ -198,6 +201,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 32px;
 }
 
 .card-p-low {
@@ -361,3 +365,52 @@ header {
     align-items: center;
     gap: 24px;
 }
+
+/*  =================== main-4 ======================== */
+
+.main-4 {
+    padding: 100px 40px;
+    background-color: var(--neutra-withe);
+}
+
+.card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    border: 2px solid var(--primaria-laranja);
+    border-radius: 20px;
+    background-color: rgb(from var(--primaria-laranja) r g b / 0.3);
+    gap: 60px;
+}
+
+.card-4 h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--neutra-black);
+} 
+
+.card-4 p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--neutra-black);
+}
+
+.card-4 a {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--neutra-withe);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--primaria-laranja);
+}
+
+.card-4 img {
+    width: 34px;
+    height: 34px;
+    margin-left: 20px;
+}
+
