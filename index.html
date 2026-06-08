@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huari AI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="./src/assets/logos/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./src/styles/global.css">
     <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/charts.css/dist/charts.min.css">
 </head>
+
 <body>
-    
+
     <header>
-        
+
         <div class="navbar">
             <div class="logo">
                 <img src="./src/assets/logos/logo.svg" alt="logo-navbar">
                 <h2>Huari</h2>
             </div>
             <div class="navbar-links">
-                <a href="" class="selecionado"><img src="./src/assets/icons/house-orange.svg" alt="icon-inicio">Início</a>
-                <a href="" class="not-select"><img src="./src/assets/icons/people-gray.svg" alt="icon-parlamentares">Parlamentares</a>
-                <a href="" class="not-select"><img src="./src/assets/icons/book-gray.svg" alt="icon-aprenda">Aprenda</a>
-                <a href="" class="not-select"><img src="./src/assets/icons/message-gray.svg" alt="icon-chat">Chat Huari</a>
+                <button> <img src="./src/assets/icons/house-orange.svg" alt="icon-inicio">Início</button>
+                <button> <img src="./src/assets/icons/people-gray.svg" alt="icon-parlamentares">Parlamentares</button>
+                <button> <img src="./src/assets/icons/book-gray.svg" alt="icon-aprenda">Aprenda</button>
+                <button> <img src="./src/assets/icons/message-gray.svg" alt="icon-chat">Chat Huari</button>
             </div>
         </div>
 
     </header>
 
     <main class="main-1">
-        
+
         <div class="corpo-main1">
             <div>
                 <h1>Transparência política ao seu alcance</h1>
-                <p>Acompanhe dados públicos de parlamentares, aprenda sobre política e converse com a Huari, sua assistente de análise política.</p>
+                <p>Acompanhe dados públicos de parlamentares, aprenda sobre política e converse com a Huari, sua
+                    assistente de análise política.</p>
             </div>
             <div class="main-1-btns">
-                <button class="btn1-main-1"><a href="">Ver Parlamentares</a><img src="./src/assets/icons/arrow-orange.svg" alt="icon-arrow"></button>
-                <button class="btn2-main-1"><img src="./src/assets/icons/message-white.svg" alt="icon-chat"><a href="">Falar com Huari</a></button>
+                <button class="btn1-main-1">Ver Parlamentares<img src="./src/assets/icons/arrow-orange.svg"
+                        alt="icon-arrow"></button>
+                <button class="btn2-main-1"><img src="./src/assets/icons/message-white.svg" alt="icon-chat">Falar com
+                    Huari</button>
             </div>
         </div>
-        
+
     </main>
 
     <main class="main-2">
@@ -83,11 +92,49 @@
         </div>
 
     </main>
+
+    <main class="g">
+
+        
+        <table class="charts-css column show-labels show-primary-axis show-4-secondary-axes" style="width: 800px;">
+            <caption> Column Example #8 </caption>
+            <thead>
+                <tr>
+                    <th scope="col"> Year </th>
+                    <th scope="col"> Progress </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"> PT </th>
+                    <td style="--size: 0.26;" class="column-graphic"></td>
+                </tr>
+                <tr>
+                    <th scope="row"> PSBD </th>
+                    <td style="--size: 0.40;" class="column-graphic"></td>
+                </tr>
+                <tr>
+                    <th scope="row"> MDB </th>
+                    <td style="--size: 0.60;" class="column-graphic"></td>
+                </tr>
+                <tr>
+                    <th scope="row"> PL </th>
+                    <td style="--size: 0.75;" class="column-graphic"></td>
+                </tr>
+                <tr>
+                    <th scope="row"> PSB </th>
+                    <td style="--size: 0.58;" class="column-graphic"></td>
+                </tr>
+                <tr>
+                    <th scope="row"> PP </th>
+                    <td style="--size: 0.25;" class="column-graphic"></td>
+                </tr>
+            </tbody>
+        </table>
     
-    <main class="grafico">
-         <img src="./src/assets/images/grafico.svg" alt="parlamentares-graphic">
+
     </main>
-   
+
     <main class="main-3">
 
         <div class="main-3-cards">
@@ -135,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="card-3">
                     <div class="card-header">
                         <img src="./src/assets/images/carlos-mendes.svg" alt="carlos-mendes">
@@ -225,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="card-3">
                     <div class="card-header">
                         <img src="./src/assets/images/pedro-oliveira.svg" alt="pedro-oliveira">
@@ -277,7 +324,7 @@
     </main>
 
     <div class="main-4">
-         <div class="card-4">
+        <div class="card-4">
             <h2>Quer entender melhor como funiona a política?</h2>
             <p>Acesse nossa área educativa com conteúdos didáticos sobre o sistema político brasileiro.</p>
             <a href="">Começe a aprender <img src="./src/assets/icons/arrow-white.svg" alt="icon-arrow-main-4"></a>
@@ -321,6 +368,7 @@
         </div>
 
     </footer>
-    
+
 </body>
+
 </html>

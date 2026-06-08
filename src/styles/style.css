@@ -1,12 +1,3 @@
-:root {
-    --primaria-laranja: #FF5E00;
-    --primaria-bordor: #9F2D00;
-
-    --neutra-gree: #6D5A65;
-    --light-gray: #F2F2F2;
-    --neutra-withe: #ffffff;
-    --neutra-black: #000000;
-}
 
 /* ======================== Header ======================== */
 
@@ -43,10 +34,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 32px;
 }
 
-.navbar-links a {
+.navbar-links button {
+    display: flex;
+    align-items: center;
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -58,16 +51,16 @@ header {
     margin-right: 10px;
 }
 
-.selecionado {
-    padding: 20px;
-    background-color: rgb(from var(--primaria-laranja) r g b / 0.3);
+.navbar-links button {
+    padding: 16px 20px;
+    border: 2px solid transparent;
+}
+
+.navbar-links > button:hover {
+    background-color: var(--secondary);
     border: 2px solid var(--primaria-laranja);
     border-radius: 20px;
     color: var(--primaria-laranja);
-}
-
-.not-select {
-    color: var(--neutra-gree);
 }
 
 
@@ -109,46 +102,45 @@ header {
     gap: 32px;
 }
 
+.main-1-btns > button{
+    border: 2px solid transparent;
+}
+
+.main-1-btns > button:hover {
+    cursor: pointer;
+    border: 2px solid var(--neutra-black);
+}
+
 .main-1-btns img {
     width: 30px;
     height: 30px;
 }
 
 .btn1-main-1 {
-    padding: 20px;
-    border: 1px solid var(--neutra-black);
-    border-radius: 10px;
-    background-color: var(--neutra-withe);
-}
-
-.btn1-main-1 a {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: var(--primaria-laranja);
+    padding: 16px;
+    border-radius: 10px;
+    background-color: var(--neutra-withe);
 }
 
-.btn1-main-1 img {
-    margin-left: 20px;
+.btn1-main-1 > button {
+    gap: 20px;
 }
 
 .btn2-main-1 {
-    padding: 20px;
-    border: 1px solid var(--neutra-black);
-    border-radius: 10px;
-    background-color: var(--primaria-bordor);
-}
-
-.btn2-main-1 img {
-    margin-right: 20px;
-}
-
-.btn2-main-1 a {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: var(--neutra-withe);
+    padding: 16px;
+    border-radius: 10px;
+    background-color: var(--primaria-bordor);
 }
+
+
 
 /* ========================== main-2 ========================= */
 
@@ -199,9 +191,9 @@ header {
 .div-h2-img {
     margin-top: 24px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 40px;
 }
 
 .card-p-low {
@@ -214,20 +206,30 @@ header {
 
 /* =========================== main grafico ======================== */
 
-.grafico {
-    padding: 120px 40px;
+.g {
+    padding-top: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--neutra-withe);
+    height: 100vh;
+    margin: 0;
 }
 
-.grafico img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1100px;
+.column-graphic {
+    background-color: var(--primaria-laranja) !important; 
+    margin-right: 10px !important; 
+    border-radius: 8px 8px 0px 0px !important;
 }
+
+#column-example-8 {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+#column-example-8 .column {
+  --aspect-ratio: 4 / 3;
+}
+
 
 /*  ============================= main-3 ====================================== */
 
@@ -325,6 +327,8 @@ header {
     justify-content: space-around;
     align-items: center;
 }
+
+
 
 .metric {
     display: flex;
