@@ -3,7 +3,7 @@
 
 header {
     padding: 20px 60px;
-    background-color: var(--neutra-withe);
+    background-color: var(--neutra-white);
 }
 
 .navbar {
@@ -82,14 +82,14 @@ header {
     font-weight: 700;
     line-height: 120%;
     font-family: "Inter", sans-serif;
-    color: var(--neutra-withe);
+    color: var(--neutra-white);
 }
 
 .corpo-main1 p {
     font-size: 24px;
     font-size: 400;
     width: 1200px;
-    color: var(--neutra-withe);
+    color: var(--neutra-white);
     padding-top: 34px;
 }
 
@@ -124,7 +124,7 @@ header {
     color: var(--primaria-laranja);
     padding: 16px;
     border-radius: 10px;
-    background-color: var(--neutra-withe);
+    background-color: var(--neutra-white);
 }
 
 .btn1-main-1 > img{
@@ -137,7 +137,7 @@ header {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: var(--neutra-withe);
+    color: var(--neutra-white);
     padding: 16px;
     border-radius: 10px;
     background-color: var(--primaria-bordor);
@@ -152,7 +152,7 @@ header {
 
 .main-2 {
     padding: 100px 40px;
-    background-color: var(--neutra-withe);
+    background-color: var(--neutra-white);
 }
 
 .main-2-cards {
@@ -241,7 +241,7 @@ header {
 
 .main-3 {
     padding: 120px 40px;
-    background-color: var(--neutra-withe);
+    background-color: var(--neutra-white);
 }
 
 .main-3-cards {
@@ -291,7 +291,7 @@ header {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: var(--neutra-gree);
+    color: var(--neutra-gray);
 }
 
 .card-info {
@@ -361,7 +361,7 @@ header {
      font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: var(--neutra-gree);
+    color: var(--neutra-gray);
 }
 
 .metric img {
@@ -380,7 +380,7 @@ header {
 
 .main-4 {
     padding: 80px 40px;
-    background-color: var(--neutra-withe);
+    background-color: var(--neutra-white);
 }
 
 .card-4 {
@@ -414,7 +414,7 @@ header {
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 600;
-    color: var(--neutra-withe);
+    color: var(--neutra-white);
     padding: 20px;
     border-radius: 20px;
     background-color: var(--primaria-laranja);
@@ -437,47 +437,61 @@ header {
 
 /*  ======================== footer ========================= */
 
-footer {
-    padding: 60px;
-    background-color: var(--neutra-withe);
-}
+ footer {
+    background-color: var(--white);
+    padding: 60px 80px;
+    text-align: center;
+    border-top: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+ }
 
 .main-5 {
-    background-color: var(--neutra-withe);
+    background-color: var(--neutra-white);
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contact {
-
+    font-size: 14px;
+    color: #555555;
+    max-width: 500px;
+    line-height: 1.7;
+    margin-bottom: 20px;
 }
 
 .image-email {
-
-}
-
-.email-text {
+    width: 160px;
 
 }
 
 .links {
-
+    font-size: 14px;
+    color: #555555;
+    max-width: 500px;
+    line-height: 1.7;
+    margin-bottom: 20px;
 }
 
 .image-privacy-policy {
-
-}
-
-.privacy-text {
+    width: 160px;
 
 }
 
 .image-declaration-acessibility {
-
-}
-
-.acessibility-text {
+    width: 160px;
 
 }
 
 .copyright-text {
-    
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #000;
+    margin-top: 40px;
+    padding-top: 20px;
 }
