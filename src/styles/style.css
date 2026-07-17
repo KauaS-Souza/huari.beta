@@ -719,3 +719,12 @@ footer {
     color: var(--neutra-gray);
     margin: 0;
 }
+/* ========================================================================================================================*/
+ /*pagina do aprenda */
+ 
+.navbar-btns .active {
+    border: 2px solid var(--primaria-laranja);
+    border-radius: 12px;
+    background-color: var(--secondary);
+    color: var(--primaria-laranja);
+}
