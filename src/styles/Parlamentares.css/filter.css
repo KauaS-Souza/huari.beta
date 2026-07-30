@@ -51,7 +51,7 @@
     font-family: "Inter", sans-serif;
     font-size: var(--fs-button);
     font-weight: var(--fw-semibold);
-    border: 1px solid transparent;
+    background-color: var(--gray);
     border-radius: 10px;
     cursor: pointer;
     color: var(--text-color-gray-dark);
@@ -59,9 +59,8 @@
 }
 
 .select-filter > button:hover {
-    border: 1px solid var(--primaria-laranja);
-    transform: scale(1.05);
-    color: var(--primaria-laranja);
+    background-color: var(--primaria-laranja);
+    color: var(--text-color-white);
     transition: all 0.5 ease;
 }
 
